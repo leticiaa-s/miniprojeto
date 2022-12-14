@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.central{
+    width: 720px;
+    margin: 0 auto;
+}
+
+header h1{
+    font-family: 'Rockwell', 'Courier Bold', 'Courier', 'Georgia', serif;
+    font-size: 55px;
+    color: rgb(8, 108, 133);
+}
+
+.card{
+    margin: 0 auto;
+}
+
+#contato{
+    padding-top: 0px;
+    padding-bottom: 180px;
+    max-width: 950px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 720px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.carousel{
+    width: 720px;
+}
+
+#espaconav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+nav{
+    background-color: lightgreen;
+    margin-top: 1px;
+    border-color: white;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+header{
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;  
+}
+
+aside{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 60px;
+}
+
+.servicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,226,160,1) 0%, rgba(2,223,178,1) 47%, rgba(0,212,255,1) 100%);
+}
+
+footer, ul, li, a {
+    text-decoration: none;
+}
